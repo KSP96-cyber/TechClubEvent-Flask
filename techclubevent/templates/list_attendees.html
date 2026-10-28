@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>List of Attendees</title>
+</head>
+<body>
+
+<h2>Attendees for {{ event.title }}</h2>
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+    </tr>
+    {% for attendee in attendees %}
+    <tr>
+        <td>{{ attendee.username }}</td>
+        <td>{{ attendee.email }}</td>
+    </tr>
+    {% endfor %}
+</table>
+
+</body>
+</html>
+

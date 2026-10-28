@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploaded files
+techclubevent/static/profile_pics/
+
+# Editor files
+.vscode/
+.idea/
